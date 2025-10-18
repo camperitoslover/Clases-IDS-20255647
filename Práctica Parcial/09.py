@@ -1,0 +1,5 @@
+pp = ("Hamburguesa","Pizza","Tacos","Pupusas","Hotdog")
+pc = ("Papas fritas","Alitas de pollo","Ensalada","Sopa","Lasaña")
+ppo = int(input())
+pco = int(input())
+print(f"El pedido de Alvin es: {pp[ppo-1]} con {pc[pco-1]}")

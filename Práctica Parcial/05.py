@@ -1,0 +1,17 @@
+A = float(input())
+B = float(input())
+C = float(input())
+D = float(input())
+E = float(input())
+F = float(input())
+notas = [A, B, C, D, E, F]
+maximo = max(notas)
+minimo = min(notas)
+diferencia = maximo - minimo
+suma = sum(notas)
+promedio = suma / len(notas)
+print(f"Maximo: {maximo:.2f}")
+print(f"Minimo: {minimo:.2f}")
+print(f"Diferencia: {diferencia:.2f}")
+print(f"Suma: {suma:.2f}")
+print(f"Promedio: {promedio:.2f}")
