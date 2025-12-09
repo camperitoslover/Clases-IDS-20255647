@@ -1,0 +1,6 @@
+control1 = float(input())
+parcial1 = float(input())
+control2 = float(input())
+parcial2 = float(input())
+tarea = float(input())
+print(f"La nota final es: {((control1*0.15)+(parcial1*0.4)+(control2*0.25)+(parcial2*0.2)+(tarea*0.05)).__round__(2)}")
